@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Implementasi Jaringan Sekolah</title>
+  <!-- Link to Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* CSS untuk style tambahan */
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    .hero {
+      background-image: url('https://via.placeholder.com/1920x1080'); /* Ganti dengan gambar hero sesuai keinginan */
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    footer {
+      font-size: 14px;
+    }
+
+    .section-title {
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #333;
+    }
+
+    .section-content {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .section-content ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Jaringan Sekolah</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#analisis">Analisis Kebutuhan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#perancangan">Perancangan Infrastruktur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#keamanan">Keamanan Jaringan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pengelolaan">Pengelolaan dan Pemeliharaan</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero bg-info text-white py-5 text-center">
+    <div class="container">
+      <h1 class="display-4">Implementasi Jaringan Sekolah</h1>
+      <p class="lead">Membangun Infrastruktur Jaringan untuk Mendukung Pembelajaran dan Administrasi yang Efisien</p>
+    </div>
+  </section>
+
+  <!-- Analisis Kebutuhan Section -->
+  <section id="analisis" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Analisis Kebutuhan</h2>
+      <p class="section-content">Untuk memulai implementasi jaringan sekolah, pertama-tama kita perlu menganalisis kebutuhan jaringan. Ini mencakup tujuan jaringan, perangkat yang digunakan, dan kecepatan serta kapasitas jaringan yang dibutuhkan.</p>
+      <ul class="section-content">
+        <li><strong>Tujuan Jaringan:</strong> Mendukung pembelajaran berbasis teknologi, komunikasi, dan pengelolaan data.</li>
+        <li><strong>Perangkat yang Digunakan:</strong> Komputer, laptop, server, smartboard, dan perangkat lain yang terhubung ke jaringan.</li>
+        <li><strong>Kecepatan dan Kapasitas:</strong> Menentukan bandwidth berdasarkan jumlah perangkat dan jenis aktivitas yang dilakukan.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Perancangan Infrastruktur Section -->
+  <section id="perancangan" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Perancangan Infrastruktur Jaringan</h2>
+      <p class="section-content">Perancangan infrastruktur jaringan sangat penting untuk memastikan koneksi yang lancar di seluruh area sekolah.</p>
+      <ul class="section-content">
+        <li><strong>Topologi Jaringan:</strong> Topologi bintang adalah pilihan yang baik untuk menghubungkan perangkat dengan efisien.</li>
+        <li><strong>Penyusunan Kabel:</strong> Pilih kabel jaringan yang dapat mendukung kecepatan tinggi dan pemasangan yang rapi.</li>
+        <li><strong>Wi-Fi:</strong> Pastikan titik akses (AP) tersebar di seluruh sekolah untuk koneksi tanpa hambatan.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Keamanan Jaringan Section -->
+  <section id="keamanan" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Keamanan Jaringan</h2>
+      <p class="section-content">Keamanan jaringan harus menjadi prioritas untuk melindungi data dan perangkat dari ancaman eksternal.</p>
+      <ul class="section-content">
+        <li><strong>Keamanan Wi-Fi:</strong> Gunakan enkripsi WPA3 untuk mengamankan akses jaringan nirkabel.</li>
+        <li><strong>Pengaturan Akses:</strong> Terapkan kontrol akses berbasis peran untuk mencegah akses yang tidak sah.</li>
+        <li><strong>Backup Data:</strong> Lakukan backup rutin untuk mencegah kehilangan data penting.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Pengelolaan dan Pemeliharaan Section -->
+  <section id="pengelolaan" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Pengelolaan dan Pemeliharaan</h2>
+      <p class="section-content">Pengelolaan dan pemeliharaan yang baik akan memastikan jaringan tetap stabil dan aman.</p>
+      <ul class="section-content">
+        <li><strong>Monitoring Jaringan:</strong> Gunakan perangkat lunak untuk memantau kinerja jaringan secara real-time.</li>
+        <li><strong>Pemeliharaan Berkala:</strong> Pastikan perangkat jaringan selalu dalam kondisi optimal.</li>
+        <li><strong>Pelatihan Pengguna:</strong> Berikan pelatihan kepada staf dan siswa tentang cara menggunakan jaringan dengan aman.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3">
+    <p>&copy; 2025 Implementasi Jaringan Sekolah. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <!-- Bootstrap JS & Dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

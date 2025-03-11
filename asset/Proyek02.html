@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pengembangan Kurikulum Jaringan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll(".nav-link");
+            navLinks.forEach(link => {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute("href").substring(1);
+                    document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+                });
+            });
+        });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .jumbotron {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://source.unsplash.com/1600x900/?technology,network') center/cover no-repeat;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+        .icon {
+            font-size: 40px;
+            color: #0d6efd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kurikulum Jaringan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="#pengertian">Pengertian</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tujuan">Tujuan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#prinsip">Prinsip</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proses">Proses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tantangan">Tantangan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#implementasi">Implementasi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <h1 class="display-4">Pengembangan Kurikulum Jaringan</h1>
+        <p class="lead">Membantu peserta didik memperoleh keterampilan yang relevan dengan dunia industri IT.</p>
+    </div>
+
+    <!-- Konten Utama -->
+    <div class="container my-5">
+        <div class="row">
+
+ <div id="pengertian">
+                <div class="card p-3">
+                    <h3 class="text-primary"><i class="bi bi-bullseye icon"></i> Pengertian Pengembangan kurikulum jaringan</h3>
+                    <p>Pengembangan kurikulum jaringan adalah proses perancangan dan penyusunan kurikulum untuk bidang jaringan komputer dan telekomunikasi. Kurikulum ini biasanya diterapkan dalam program pendidikan seperti SMK, perguruan tinggi, atau pelatihan profesional.</p>
+                </div>
+            </div>
+
+ <div class="row mt-4"></div>
+            <!-- Tujuan -->
+            <div id="tujuan">
+                <div class="card p-3">
+                    <h3 class="text-primary"><i class="bi bi-bullseye icon"></i> Tujuan Pengembangan</h3>
+                    <p>Pengembangan kurikulum jaringan bertujuan untuk:</p>
+                    <ul>
+                        <li>Menyesuaikan dengan perkembangan teknologi jaringan seperti <strong>cloud computing, keamanan siber, dan otomasi jaringan</strong>.</li>
+                        <li>Menyiapkan tenaga kerja yang memiliki keterampilan dalam <strong>administrasi jaringan, troubleshooting, dan manajemen server</strong>.</li>
+                        <li>Meningkatkan kemampuan analisis dan problem-solving dalam menangani permasalahan jaringan.</li>
+                        <li>Mendukung sertifikasi profesional seperti <strong>CCNA, MTCNA, Network+, dan AWS Cloud Practitioner</strong>.</li>
+                        <li>Memfasilitasi pembelajaran berbasis praktik dengan penggunaan <strong>simulasi jaringan dan laboratorium</strong>.</li>
+                    </ul>
+                </div>
+            </div>
+
+<div class="row mt-4"></div>
+            <!-- Prinsip -->
+            <div id="prinsip">
+                <div class="card p-3">
+                    <h3 class="text-primary"><i class="bi bi-lightbulb icon"></i> Prinsip Pengembangan</h3>
+                    <p>Beberapa prinsip utama dalam pengembangan kurikulum jaringan:</p>
+                    <ul>
+                        <li><strong>Relevansi</strong>: Materi harus sesuai dengan tren industri.</li>
+                        <li><strong>Fleksibilitas</strong>: Mudah diperbarui mengikuti perkembangan teknologi.</li>
+                        <li><strong>Berorientasi pada praktik</strong>: Lebih banyak proyek dan simulasi.</li>
+                        <li><strong>Integrasi dengan sertifikasi</strong>: Sejalan dengan standar internasional.</li>
+                        <li><strong>Kolaborasi dengan industri</strong>: Mengakomodasi kebutuhan dunia kerja.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Proses -->
+            <div id="proses">
+                <div class="card p-3">
+                    <h3 class="text-primary"><i class="bi bi-gear icon"></i> Proses Pengembangan</h3>
+                    <ol>
+                        <li><strong>Analisis Kebutuhan</strong>: Menyesuaikan dengan tren industri dan teknologi.</li>
+                        <li><strong>Perumusan Kompetensi</strong>: Menentukan keterampilan utama yang harus dikuasai.</li>
+                        <li><strong>Penyusunan Struktur Kurikulum</strong>: Membagi materi sesuai jenjang pendidikan.</li>
+                        <li><strong>Pengembangan Materi</strong>: Mengombinasikan teori dan praktik.</li>
+                        <li><strong>Evaluasi</strong>: Memastikan kurikulum tetap efektif.</li>
+                    </ol>
+                </div>
+            </div>
+
+<div class="row mt-4"></div>
+            <!-- Tantangan -->
+            <div id="tantangan">
+                <div class="card p-3">
+                    <h3 class="text-primary"><i class="bi bi-exclamation-circle icon"></i> Tantangan</h3>
+                    <ul>
+                        <li>Perkembangan teknologi yang sangat cepat.</li>
+                        <li>Ketersediaan infrastruktur jaringan yang masih terbatas.</li>
+                        <li>Kurikulum terlalu teoretis dan minim praktik.</li>
+                        <li>Keterbatasan tenaga pengajar dengan keahlian terbaru.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Implementasi -->
+        <div class="row mt-4">
+            <div id="implementasi">
+                <div class="card p-3">
+                    <h3 class="text-primary"><i class="bi bi-laptop icon"></i> Implementasi di SMK</h3>
+                    <ul>
+                        <li>Menggunakan <strong>simulasi jaringan</strong> seperti Cisco Packet Tracer dan GNS3.</li>
+                        <li>Pembelajaran berbasis proyek seperti membangun jaringan skala kecil.</li>
+                        <li>Kolaborasi dengan perusahaan IT untuk magang.</li>
+                        <li>Memberikan kesempatan siswa mengikuti sertifikasi jaringan.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2025 Pengembangan Kurikulum Jaringan. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
